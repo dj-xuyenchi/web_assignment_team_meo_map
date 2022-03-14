@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top_content {
+  height: 150px;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.content_body_1 {
+  height: 500px;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+}
+
+.content_body_1_left {
+  height: 500px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  float: left;
+}
+
+.content_body_1_right {
+  height: 500px;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  float: right;
+}
+
+.see_more_content_body_1 {
+  height: 45px;
+  width: 130px;
+  border: 1px solid orange;
+  background-color: aliceblue;
+}
+.see_more_content_body_1:hover {
+  background-color: orange;
+}
+
+#see_more_content_body_1_font {
+  color: orange;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#see_more_content_body_1_font:hover {
+  color: white;
+}
+
+.content_body_2 {
+  height: 500px;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.content_body_2_item_1 {
+  height: 500px;
+  width: 38%;
+  float: left;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.content_body_2_item_2 {
+  height: 500px;
+  width: 38%;
+  float: left;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.content_body_2_item_3 {
+  height: 500px;
+  width: 23%;
+  border: 1px solid rgb(255, 255, 255);
+  float: right;
+}
+.content_body_3_item_3 {
+  height: 500px;
+  width: 23%;
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+}
+
+.content_body_2_item_3_hot_news_topic_1 {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.content_body_2_item_3_hot_news_topic_1_img {
+  height: 100px;
+  width: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  float: left;
+}
+.content_body_2_item_3_hot_news_topic_1_name {
+  height: 100px;
+  width: 58%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  float: right;
+}
+
+#content_body_2_item_1_hover {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#content_body_2_item_1_hover:hover {
+  color: orange;
+}
+
+#content_body_2_item_3_hot_news_topic_1_nam_font {
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+}
+
+#content_body_2_item_3_hot_news_topic_1_nam_font:hover {
+  color: orange;
+}
+
+#fix_margin_top {
+  margin-top: -100px;
+}
+
+.end_page {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(26, 27, 82);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.end_page_contact {
+  height: 500px;
+  width: 60%;
+  
+}
+
+.end_page_contact_1 {
+  height: 500px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
