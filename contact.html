@@ -6,6 +6,7 @@
     <link rel="icon" href="logo/512.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="news_page_style.css">
     <title>Document</title>
 </head>
 <body>
@@ -16,17 +17,7 @@
                     <img class="logo" src="logo/512.png" alt="logo">
                 </a>
                 <a id="menu_items" href="index.html">TRANG CHỦ</a>
-
-                <div class="dropdown">
-                    <a href="news.html">
-                        <button class="dropbtn">TIN TỨC ></button>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="">SINH VIÊN ĐÁNH NHAU</a>
-                        <a href="">CON MÈO GẦN TRƯỜNG</a>
-                        <a href="">THẦY HIỆU TRƯỞNG & CÔ HIỆU PHÓ</a>
-                    </div>
-                </div>
+                    <a id="menu_items" href="news.html">TIN TỨC</a>
                 <div class="dropdown">
                     <button class="dropbtn">CÁC CHYÊN NGHÀNH ĐÀO TẠO ></button>
                     <div class="dropdown-content">
@@ -36,7 +27,7 @@
                     </div>
                 </div>
 
-                <a href="">PHONG TRÀO TRONG THÁNG</a>
+                <a id="menu_items" href="">PHONG TRÀO TRONG THÁNG</a>
                 <div class="dropdown">
                     <button class="dropbtn">VỀ CHÚNG TÔI ></button>
                     <div class="dropdown-content">
@@ -60,12 +51,53 @@
     </div>
     </div>
     <!-- menu trên -->
-    <div align="center" style="margin-top: 100px;">
-        <img src="postter/Cao-dang-thuc-hanh-FPT-Polytechnic.jpg" alt="" style="height: 250px; width: 100%;">
-       </div>
-       <div style="height: 30px;">
-       </div>
-       </div>
+    <div style="margin-top: 150px;">
+    </div>
+    <div align="center">
+        <div class="gg_map_location">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rhcf4l6Q3rdWVqZWPjzx7-F3S-2uCz7n&ehbc=2E312F" width="1000" height="600"></iframe>
+        </div>
+    </div>
+    <br>
+    <br><br><br>
+    <!-- Contact news page and end -->
+    
+<div class="contact_end_page">
+</div>
+<div class="end_page">
+    <div class="end_page_logo">
+        <img src="logo/512.png" alt="" class="logo_end">
+    </div>
+    <div class="end_page_info">
+        <div class="fix_position">
+            <font id="title_end_page">
+                ĐỊA CHỈ VÀ CÁCH THỨC LIÊN HỆ
+            </font>
+            <br>
+            <br>
+            <br>
+            <font id="major_font_title">
+                Cơ sở duy nhất tại Tp Hà Nội
+            </font>
+            <br>
+            <br>
+            <img src="logo/find-location.svg" alt="" id="logo_location">
+            <font id="font_location">69 Trần Duy Hưng - Tp Hà Nội.</font>
+            <br>
+            <br>
+            <img src="logo/icon-dien-thoai.png" alt="" id="logo_location">
+            <font id="font_location">0969669996.</font>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <font id="font_copyright">Copyright by Vịt Mập.</font>
+        </div>
+    </div>
+</div>
+<!-- Contact news page and end -->
            <!-- menu dưới -->
            <div style="margin-bottom: 0px;">
                <div style="height: 50px;width: 100%; background-color: rgb(42, 185, 241); position: fixed;bottom: 0px;">
@@ -87,6 +119,35 @@
                </div>
            </div>
            <!-- menu dưới -->
+           <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108194641827698");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="https://uhchat.net/code.php?f=641e60"></script>
     
 </body>
 </html>

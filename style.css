@@ -4,6 +4,9 @@ body {
   height: 100%;
 
 }
+#menu_items:hover {
+  color: #fce45c;
+}
 
 /* định dạng logo kính lúp 2 ảnh ko cùng format nên phải định dạng khác nhau */
 .logo1 {
@@ -38,7 +41,7 @@ body {
 /* định dạng khi rê chuột vào menu */
 .dropdown-content a:hover {
   background-color: #b79ebe;
-  color: rgb(253, 194, 1);
+  color: #fce45c;
 }
 
 /* Hiển thị menu thả xuống khi di chuột */
@@ -48,7 +51,7 @@ body {
 
 /* Thay đổi màu nền của nút thả xuống khi nội dung được hiển thị */
 .dropdown:hover .dropbtn {
-  color: #f0792a;
+  color: #fce45c;
 }
 
 .slideshow {

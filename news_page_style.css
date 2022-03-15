@@ -4,6 +4,11 @@ body {
   height: 100%;
 }
 
+.gg_map_location {
+  height: 600px;
+  width: 100%;
+}
+
 @media screen and (min-width: 1600px) {
   .contact_end_page {
     height: 10px;
@@ -158,26 +163,61 @@ body {
     height: 500px;
     width: 100%;
     background-color: rgb(26, 27, 82);
-    float: left;
+    display: flex; align-items: center; 
   }
   .end_page_logo {
-    height: 500px;
+    height: 490px;
     width: 50%;
-   border: 1px solid red;
+   border: 1px solid rgb(26, 27, 82);
   }
   .end_page_info {
-    height: 500px;
-    width: 49%;
-   border: 1px solid rgb(0, 0, 0);
+    height: 490px;
+    width: 50%;
+   border: 1px solid rgb(26, 27, 82);
   
   }
-  
-  .hr_fix {
-    width: 60%;
+  .fix_position {
+    margin-top: 5%;
+    margin-left: 3%;
   }
+  #title_end_page {
+    color: rgb(255, 177, 60);
+    font-size: 20px;
+    font-weight: 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #major_font_title {
+    color:aliceblue;
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #font_location {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #logo_location {
+    height: 18px;
+    width: auto;
+  }
+  #font_copyright {
+    color:rgb(255, 232, 99);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 10;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
   .logo_end {
     height: 300px;
     width: auto;
+    margin-left: 60%;
+    margin-top: 5%;
+  }
+  .hr_fix {
+    width: 60%;
   }
 }
 
@@ -338,21 +378,60 @@ body {
     height: 500px;
     width: 100%;
     background-color: rgb(26, 27, 82);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; align-items: center; 
   }
-
-  .end_page_contact {
-    height: 500px;
-    width: 60%;
-  }
-
-  .end_page_contact_1 {
-    height: 500px;
+  .end_page_logo {
+    height: 490px;
     width: 50%;
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
+   border: 1px solid rgb(26, 27, 82);
+  }
+  .end_page_info {
+    height: 490px;
+    width: 50%;
+   border: 1px solid rgb(26, 27, 82);
+  
+  }
+  .fix_position {
+    margin-top: 13%;
+    margin-left: 3%;
+  }
+  #title_end_page {
+    color: rgb(255, 177, 60);
+    font-size: 20px;
+    font-weight: 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #major_font_title {
+    color:aliceblue;
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #font_location {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #logo_location {
+    height: 18px;
+    width: auto;
+  }
+  #font_copyright {
+    color:rgb(255, 232, 99);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 10;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .logo_end {
+    height: 300px;
+    width: auto;
+    margin-left: 50%;
+    margin-top: 10%;
   }
 }
+
+
+
