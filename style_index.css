@@ -84,7 +84,7 @@ body {
 
 /* định dạng ảnh */
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1400px) {
   .menu_top {
     height: 70px;
     width: 100%;

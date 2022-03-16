@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo/512.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="news_page_style.css">
+    <link rel="stylesheet" href="event.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="margin-top: 0px;">
+        <div class="menu_top">
+            <div style="display: flex;align-items: center;justify-content: center;">
+                <a href="index.html">
+                    <img class="logo" src="logo/512.png" alt="logo">
+                </a>
+                <a id="menu_items" href="index.html">TRANG CHỦ</a>
+
+                <div class="dropdown">
+                    <a href="news.html">
+                        <button class="dropbtn">TIN TỨC ></button>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="">SINH VIÊN ĐÁNH NHAU</a>
+                        <a href="">CON MÈO GẦN TRƯỜNG</a>
+                        <a href="">THẦY HIỆU TRƯỞNG & CÔ HIỆU PHÓ</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">CÁC CHYÊN NGHÀNH ĐÀO TẠO ></button>
+                    <div class="dropdown-content">
+                        <a href="">CHẾ BỘT SẮN CẦU VỒNG</a>
+                        <a href="">IN TIỀN GIẢ</a>
+                        <a href="">TÁN GÁI TINDER</a>
+                    </div>
+                </div>
+
+                <a href="event_of_this_month.html">PHONG TRÀO TRONG THÁNG</a>
+                <div class="dropdown">
+                    <button class="dropbtn">VỀ CHÚNG TÔI ></button>
+                    <div class="dropdown-content">
+                        <a href="leader.html">LÃNH ĐẠO TRƯỜNG</a>
+                        <a href="good_boy.html">LỚP GƯƠNG MẪU</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">THAM GIA NGAY ></button>
+                    <div class="dropdown-content">
+                        <a href="">ĐĂNG KÝ HỌC LẠI</a>
+                        <a href="">ĐĂNG KÝ THI LẠI</a>
+                        <a href="contact.html">LIÊN HỆ</a>
+                    </div>
+                </div>
+                <a href="">
+                    <img class="logo1" src="logo/—Pngtree—magnifier vector icon school and_5684021.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- menu trên -->
+    <div class="fix_top_margin">
+        <div class="fix_position">
+            <div class="content_event_1">
+                <img src="images_remix/pexels-mike-1192043.jpg" alt="" id="img_event">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div align="center">
+        <div class="content_1_position">
+            <a href="">
+            <font id="content_font">Sinh viên trường tham gia giải bóng rổ toàn quốc năm 2022.</font>
+        </a>
+        <br>
+        <br>
+        <div align="left">
+            <div class="content_position_major">
+                <font id="content_font_major">
+                    Đội tuyển bóng rổ trường đăng ký tham gia giải bóng rỗ toàn quốc năm 2022
+                </font>
+                <br>
+                <font id="content_font_major">
+                    với quyết tâm cao chiến thắng các đội từ các trường khác.
+                </font>
+                <br>
+                <br>
+                    <a href="" id="see_more_event">
+                        <div id="font_event_more">
+                            <div style="display: flex;align-items: center;justify-content: center;margin-top: 10px;">
+                                <font>Xem Thêm</font>
+                            </div>
+                        </div>
+                    </a>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Contact news page and end -->
+    <div class="contact_end_page">
+    </div>
+    <div class="end_page">
+        <div class="end_page_logo">
+            <img src="logo/512.png" alt="" class="logo_end">
+        </div>
+        <div class="end_page_info">
+            <div class="fix_position">
+                <font id="title_end_page">
+                    ĐỊA CHỈ VÀ CÁCH THỨC LIÊN HỆ
+                </font>
+                <br>
+                <br>
+                <br>
+                <font id="major_font_title">
+                    Cơ sở duy nhất tại Tp Hà Nội
+                </font>
+                <br>
+                <br>
+                <img src="logo/find-location.svg" alt="" id="logo_location">
+                <font id="font_location">69 Trần Duy Hưng - Tp Hà Nội.</font>
+                <br>
+                <br>
+                <img src="logo/icon-dien-thoai.png" alt="" id="logo_location">
+                <font id="font_location">0969669996.</font>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <font id="font_copyright">Copyright by Vịt Mập.</font>
+            </div>
+        </div>
+    </div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "108194641827698");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v13.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="https://uhchat.net/code.php?f=641e60"></script>
+</body>
+
+</html>

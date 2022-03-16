@@ -39,7 +39,7 @@
                     </div>
                 </div>
 
-                <a href="">PHONG TRÀO TRONG THÁNG</a>
+                <a href="event_of_this_month.html">PHONG TRÀO TRONG THÁNG</a>
                 <div class="dropdown">
                     <button class="dropbtn">VỀ CHÚNG TÔI ></button>
                     <div class="dropdown-content">
@@ -76,7 +76,7 @@
                     <br>
                     <br>
                     <font style="color: black;margin-left: 10px;">
-                    <font style="color: blue; font-weight: bold;"> ShigeoTokuda </font>
+                        <font style="color: blue; font-weight: bold;"> ShigeoTokuda </font>
                         sinh ngày 18 tháng 8 năm 1969
                     </font>
                     <br>
@@ -209,7 +209,7 @@
                         </font>
                         <br>
                         <font style="color: black;margin-left: 20px;">
-                            Được bầu làm trưởng bảo vệ trường sau những phi vụ sinh 
+                            Được bầu làm trưởng bảo vệ trường sau những phi vụ sinh
                         </font>
                         <br>
                         <font style="color: black;margin-left: 20px;">
@@ -221,22 +221,23 @@
         </div>
     </div>
     <hr>
-<div align="center">
-    <img src="slide2/dienvien.webp" alt="" style="height: 600px;width: auto;">
-</div>
-<br>
-<div align="center">
-    <font style="color: rgb(23, 27, 235);font-size: 40px;">Một số thầy giáo bộ môn thể dục thi đấu giải vật cấp Tỉnh năm 2019</font>
-</div>
-<hr>
+    <div align="center">
+        <img src="slide2/dienvien.webp" alt="" style="height: 600px;width: auto;">
+    </div>
+    <br>
+    <div align="center">
+        <font style="color: rgb(23, 27, 235);font-size: 40px;">Một số thầy giáo bộ môn thể dục thi đấu giải vật cấp Tỉnh
+            năm 2019</font>
+    </div>
+    <hr>
     <div align="center">
         <img src="postter/Cao-dang-thuc-hanh-FPT-Polytechnic.jpg" alt="" style="height: 250px; width: 100%;">
     </div>
     <div style="height: 30px;">
     </div>
-</div>
+    </div>
 
-<!-- Contact news page and end -->
+    <!-- Contact news page and end -->
     <div class="contact_end_page">
     </div>
     <div class="end_page">
@@ -295,7 +296,35 @@
         </div>
     </div>
     <!-- menu dưới -->
-  
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "108194641827698");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v13.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="https://uhchat.net/code.php?f=641e60"></script>
 </body>
 
 </html>
